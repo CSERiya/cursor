@@ -3,8 +3,10 @@
     align-items: center;
     justify-content: space-between;
     background-color: #262626;
-    position: relative;
-    z-index: 1;
+    position: sticky; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
 }
 
 .logo{
@@ -20,10 +22,9 @@
     margin-right: 30px;
     padding: 8px 20px 8px 20px;
     color: white;
-    background-color: #6f9a37;
-    /* box-shadow: 0 0.1px 0 #6f9a37; */
+    background-color: green;
     position: relative;
-    border-color: #6f9a37;
+    border-color: green;
     border-radius: 0.2cm;
     cursor: pointer;
     font-weight:bold;
